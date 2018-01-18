@@ -13,6 +13,7 @@ public class Application {
 
     public static void main(String[] args) {
 	logger.info("Initializing task-manager");
+	logger.info("Inicializando aplicación...");
         SpringApplication.run(Application.class, args);
     }
 
